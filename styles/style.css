@@ -1,0 +1,138 @@
+/* style and utality  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+/* style top players and blogs section */
+menu{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+    
+
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.top-players{
+    padding: 30px;
+
+}
+.section-title{
+    color: #562EFF;
+    padding-top: 3px;
+}
+.players{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* blogs section ---------- */
+.blog{
+    display: flex;
+}
+.top-blogs{
+    display: flex;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.thamnaile img{
+    Width: 177px;
+    Height: 117px;
+}
+.blog-info h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.blogs-text{
+    margin-left: 16px;
+}
+.blog-author p{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+/* blogs section end  */
+
+/* course-section  */
+
+.lates-course{
+    padding: 33px;
+}
+.courses-name{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+}
+.course{
+  
+}
+.course{
+    width: 253px;
+    padding:10px;
+    /* drop-shadow:(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); */
+    box-shadow:0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+.course-thamnaile img{
+    width: 224px;
+    height: 104px;
+}
+.course-name h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.course-detaile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 14px;
+}
+.ratting-point{
+    /* margin: 0px 15px; */
+}
+.course-time{
+    display: flex;
+    align-items: center;
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    line-height: 8px;
+    padding: 0 8px;
+}
+.course-time i{
+    /* margin-right: 8px; */
+    font-size: 14px;
+}
+.course-time p{
+    font-size: 14px;
+}
+.fas.filled{
+    color: #FFC014;
+}
+.fas.emtiy{
+    color: #AEAEAE;
+}
